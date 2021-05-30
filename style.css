@@ -92,10 +92,31 @@ body {
     display: inline-block;
   }
 
+  .button2 {
+    background-color: #3949ab;
+    color: #FFF;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 1.18rem;
+    display: inline-block;
+  }
+
+.projects {
+  background-color: #c5cae9;
+}
+
   .projects-inner {
     max-width: 1200px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-column-gap: 45px;
+  }
+
+  .button-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
   }
